@@ -1,0 +1,6 @@
+name,clf,accuracy,precision,recall,f1,f2,total_predictions,true_positives,false_positives,false_negatives,true_negatives,scaled_inputs,PCA,from this person to poi,poi
+DecisionTree:tuned,"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=4,
+            max_features=2, max_leaf_nodes=None, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=3,
+            min_samples_split=5, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=42, splitter='best')",0.788,0.13446054750402575,0.167,0.14897413024085637,0.15929034719572682,9000,167,1075,833,6925,False,False,0.6919923796468029,0.30800762035319706

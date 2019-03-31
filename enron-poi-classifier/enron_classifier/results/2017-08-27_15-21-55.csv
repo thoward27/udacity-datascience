@@ -1,0 +1,6 @@
+name,clf,accuracy,precision,recall,f1,f2,total_predictions,true_positives,false_positives,false_negatives,true_negatives,scaled_inputs,PCA,from poi to this person,from messages,total stock value,from this person to poi,long term incentive,poi,salary,to messages,deferral payments,total payments,loan advances,bonus,restricted stock deferred,deferred income,expenses,exercised stock options,other,shared receipt with poi,restricted stock
+DecisionTree:tuned,"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=4,
+            max_features=2, max_leaf_nodes=None, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=3,
+            min_samples_split=5, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=42, splitter='best')",0.8561333333333333,0.4257518796992481,0.2265,0.29569190600522194,0.24988967343336277,15000,453,611,1547,12389,False,False,0.4141886792452833,0.27142976939203334,0.20560386473429926,0.09242548537052252,0.016352201257861555,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

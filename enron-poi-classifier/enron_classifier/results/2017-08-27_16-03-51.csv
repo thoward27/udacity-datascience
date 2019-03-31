@@ -1,0 +1,6 @@
+name,clf,accuracy,precision,recall,f1,f2,total_predictions,true_positives,false_positives,false_negatives,true_negatives,scaled_inputs,PCA,restricted stock deferred,deferred income,loan advances,poi
+DecisionTree:tuned,"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=4,
+            max_features=2, max_leaf_nodes=None, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=3,
+            min_samples_split=5, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=42, splitter='best')",0.7999090909090909,0.41222707423580784,0.236,0.3001589825119237,0.25806451612903225,11000,472,673,1528,8327,False,False,0.5246664738762346,0.38983956008572934,0.08549396603803615,0.0

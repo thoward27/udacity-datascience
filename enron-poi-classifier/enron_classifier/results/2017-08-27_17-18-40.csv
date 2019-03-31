@@ -1,0 +1,27 @@
+name,clf,accuracy,precision,recall,f1,f2,total_predictions,true_positives,false_positives,false_negatives,true_negatives,scaled_inputs,PCA,FEATURES,shared receipt with poi,from this person to poi,portion from poi,poi
+AdaBoost:tuned,"AdaBoostClassifier(algorithm='SAMME.R',
+          base_estimator=DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=5,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=42,
+            splitter='best'),
+          learning_rate=0.1, n_estimators=400, random_state=42)",0.8492222222222222,0.3202416918429003,0.318,0.3191169091821375,0.31844582415381534,9000,318,675,682,7325,False,False,"['poi', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'portion_from_poi', 'portion_to_poi']",0.314379331506817,0.32228691243664737,0.280474416757791,0.08285933929874459
+DecisionTree:tuned,"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=4,
+            max_features=2, max_leaf_nodes=None, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=3,
+            min_samples_split=5, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=42, splitter='best')",0.8426666666666667,0.31625441696113077,0.358,0.33583489681050654,0.3487918939984412,9000,358,774,642,7226,False,False,"['poi', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'portion_from_poi', 'portion_to_poi']",0.5559015135639204,0.4030483614494074,0.04105012498667218,0.0
+HardVote:tuned,"VotingClassifier(estimators=[('DecisionTree:tuned', DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=4,
+            max_features=2, max_leaf_nodes=None, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=3,
+            min_samples_split=5, min_weight_fraction_leaf=0...=42,
+            splitter='best'),
+          learning_rate=0.1, n_estimators=400, random_state=42))],
+         flatten_transform=None, n_jobs=1, voting='hard', weights=None)",0.8683333333333333,0.3445378151260504,0.205,0.25705329153605017,0.22306855277475518,9000,205,390,795,7610,False,False,"['poi', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'portion_from_poi', 'portion_to_poi']",,,,
+RandomForest:base,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=42, verbose=0, warm_start=False)",0.8681111111111111,0.36623748211731044,0.256,0.3013537374926427,0.27239838263460314,9000,256,443,744,7557,False,False,"['poi', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'portion_from_poi', 'portion_to_poi']",0.34013571864002223,0.33048531486874155,0.20329953466675948,0.12607943182447673

@@ -1,0 +1,6 @@
+name,clf,accuracy,precision,recall,f1,f2,total_predictions,true_positives,false_positives,false_negatives,true_negatives
+TUNED:DecisionTree,"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=4,
+            max_features=2, max_leaf_nodes=None, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=3,
+            min_samples_split=5, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=42, splitter='best')",0.8304,0.2933130699088146,0.193,0.23281061519903498,0.2071704594246458,15000,386,930,1614,12070

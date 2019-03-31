@@ -1,0 +1,12 @@
+name,clf,accuracy,precision,recall,f1,f2,total_predictions,true_positives,false_positives,false_negatives,true_negatives,scaled_inputs,PCA,FEATURES,loan advances,poi,deferral payments,to messages,total payments,salary
+DecisionTree:tuned,"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=4,
+            max_features=2, max_leaf_nodes=None, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=3,
+            min_samples_split=5, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=42, splitter='best')",0.8184666666666667,0.2370909090909091,0.163,0.19318518518518518,0.1738666666666667,15000,326,1049,1674,11951,False,6,"['poi', 'salary', 'to_messages', 'deferral_payments', 'total_payments', 'loan_advances', 'bonus', 'restricted_stock_deferred', 'deferred_income', 'total_stock_value', 'expenses', 'from_poi_to_this_person', 'exercised_stock_options', 'from_messages', 'other', 'from_this_person_to_poi', 'long_term_incentive', 'shared_receipt_with_poi', 'restricted_stock', 'director_fees', 'portion_from_poi', 'portion_to_poi']",0.36759802458532,0.28430828430828425,0.23678092643609935,0.08066142367412789,0.03065134099616861,0.0
+RandomForest:base,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=42, verbose=0, warm_start=False)",0.8411333333333333,0.22446043165467625,0.078,0.11576994434137292,0.08970672800460035,15000,156,539,1844,12461,False,6,"['poi', 'salary', 'to_messages', 'deferral_payments', 'total_payments', 'loan_advances', 'bonus', 'restricted_stock_deferred', 'deferred_income', 'total_stock_value', 'expenses', 'from_poi_to_this_person', 'exercised_stock_options', 'from_messages', 'other', 'from_this_person_to_poi', 'long_term_incentive', 'shared_receipt_with_poi', 'restricted_stock', 'director_fees', 'portion_from_poi', 'portion_to_poi']",0.19381229676026573,0.17972243752213346,0.20595372047488877,0.13027941610109267,0.107525093793218,0.18270703534840138

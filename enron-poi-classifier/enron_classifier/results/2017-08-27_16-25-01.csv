@@ -1,0 +1,12 @@
+name,clf,accuracy,precision,recall,f1,f2,total_predictions,true_positives,false_positives,false_negatives,true_negatives,scaled_inputs,PCA,from messages,director fees,poi,loan advances,to messages,long term incentive,shared receipt with poi,salary,deferral payments,total payments,bonus,restricted stock deferred,deferred income,total stock value,expenses,from poi to this person,exercised stock options,other,from this person to poi,restricted stock,portion from poi
+DecisionTree:tuned,"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=4,
+            max_features=2, max_leaf_nodes=None, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=3,
+            min_samples_split=5, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=42, splitter='best')",0.8470666666666666,0.37261698440207974,0.215,0.2726696258719087,0.23487000218483722,15000,430,724,1570,12276,False,False,0.4541782882143841,0.2967139219305435,0.10114195134575572,0.061114663256606944,0.050103519668737405,0.0335144927536232,0.003233162830349202,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+RandomForest:base,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=42, verbose=0, warm_start=False)",0.8598666666666667,0.4172077922077922,0.1285,0.19648318042813456,0.14914113277623028,15000,257,359,1743,12641,False,False,0.02859722919873296,0.05619677291378283,0.06903530965826594,0.12296187415916278,0.006314305849189576,0.0971925063582702,0.03884388093607048,0.03212034600126312,0.038634469903035276,0.0,0.006421404682274247,0.04174631582783249,0.0930388706693092,0.10892789788346766,0.04867419898027451,0.05400804433380966,0.006268241562359214,0.036435608232105586,0.025317620465490142,0.0,0.08926510238530413
